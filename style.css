@@ -217,11 +217,11 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 .layer a{
-    margin-top: 20px;
+    margin-top: 15px;
     color: #ff004f;
     text-decoration: none;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 40px;
     background-color: #fff;
     width: 60px;
     height: 60px;
