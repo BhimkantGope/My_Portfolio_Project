@@ -20,9 +20,9 @@ body{
     background-size: cover;
     background-position: center;
 }
-.container{
+/* .container{
     padding: 8px 8%;
-}
+} */
 nav{
     display: flex;
     align-items: center;
