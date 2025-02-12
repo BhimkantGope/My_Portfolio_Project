@@ -394,9 +394,9 @@ nav .fas{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    /* #header{
-        background-image: url("IMAGES/IMG_20230727_112216540 copy - Copy.JPG");
-    } */
+    .header-content{
+        margin-top: 50px;
+     }
      #header-text{
         margin-top: 90%;
     } 
