@@ -181,7 +181,12 @@ nav ul li a:hover::after{
     margin: 50px 0 40px;
 }
 .services-list div{
-    background-color: #ababab61;
+}
+
+#devlopment {
+    background-image: url("Screenshot (170).png");
+    background-size: cover;
+/*     background-color: #ababab61; */
     transition: background 0.5s, transform 0.5s, box-shadow 0.5s;
     padding: 40px;
     font-size: 13px; 
@@ -189,18 +194,27 @@ nav ul li a:hover::after{
     color: #000;
     font-weight: 700;
 }
-
-#devlopment {
-    background-image: url("Screenshot (170).png");
-    background-size: cover;
-}
 #machineLearning {
     background-image: url("Screenshot (174).png");
     background-size: cover;
+/*     background-color: #ababab61; */
+    transition: background 0.5s, transform 0.5s, box-shadow 0.5s;
+    padding: 40px;
+    font-size: 13px; 
+    border-radius: 10px;
+    color: #000;
+    font-weight: 700;
 }
 #cpp {
     background-image: url("Screenshot (175).png");
     background-size: 100% 100%;
+/*     background-color: #ababab61; */
+    transition: background 0.5s, transform 0.5s, box-shadow 0.5s;
+    padding: 40px;
+    font-size: 13px; 
+    border-radius: 10px;
+    color: #000;
+    font-weight: 700;
 }
 
 .services-list div:hover {
@@ -222,7 +236,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: #000;
     font-weight: 900;
-    margin-top: 12px;
+    margin-top: 13px;
     display: inline-block;
 }
 
