@@ -28,6 +28,7 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    z-index: 20;
 }
 .logo{
     width: 260px;
@@ -69,6 +70,7 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 #header-text #head1{
     font-size: 50px;
@@ -168,7 +170,7 @@ nav ul li a:hover::after{
 #services{
     width: 100%;
     min-height: 100vh;
-    background-image: url("796169491973.jpg");
+    background-image: url("IMAGES/796169491973.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -190,15 +192,15 @@ nav ul li a:hover::after{
 }
 
 #devlopment {
-    background-image: url("Screenshot (170).png");
+    background-image: url("IMAGES/Screenshot (170).png");
     background-size: cover;
 }
 #machineLearning {
-    background-image: url("Screenshot (174).png");
+    background-image: url("IMAGES/Screenshot (174).png");
     background-size: cover;
 }
 #cpp {
-    background-image: url("Screenshot (175).png");
+    background-image: url("IMAGES/Screenshot (175).png");
     background-size: 100% 100%;
 }
 
@@ -383,12 +385,37 @@ nav .fas{
     /* #header{
         background-image: url("IMAGES/IMG_20230727_112216540 copy - Copy.JPG");
     } */
-    .header-text{
+    /* .header-text{
         margin-top: 90%;
         font-size: 16px;
+    } */
+    #head1{
+        font-size: 0.5rem;
     }
-    .header-text h1{
+
+    #header-text #head1{
         font-size: 30px;
+    }
+
+    #header-text #para1 {
+        margin-top: 5px;
+    }
+
+    .auto-type{
+        margin-top: 0;
+        font-size: 20px;
+    }
+    
+    .container{
+        padding: 50px 8% 10px;
+    }
+
+    #header-image img{
+        border-radius: 20px;
+        margin: 80px 5px 0 0;
+        height: 100%;
+        width: 100%;
+        box-shadow: 10px 10px 25px #ababab;
     }
     nav .fas{
         display: block;
@@ -402,7 +429,7 @@ nav .fas{
         width: 200px;
         height: 100vh;
         padding-top: 50px;
-        z-index: 2;
+        z-index: 10;
         transition: 0.5s;
     }
     nav ul li{
@@ -435,6 +462,6 @@ nav .fas{
         flex-basis: 100%;
     }
     .copyright{
-        font-size: 14px;
+        font-size: 10px;
     }
 }
