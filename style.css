@@ -36,7 +36,7 @@ body{
     cursor: pointer;
 }
 #sidemenu {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .logo span{
     color: #ff004f;
@@ -395,11 +395,8 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     .header-content{
-        margin-top: 50px;
+        padding-top: 50px;
      }
-     /*#header-text{
-        margin-top: 90%;
-    } */
     #head1{
         font-size: 0.5rem;
     }
