@@ -168,7 +168,7 @@ nav ul li a:hover::after{
 #services{
     width: 100%;
     min-height: 100vh;
-    background-image: url("IMAGES/796169491973.jpg");
+    background-image: url("796169491973.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -190,15 +190,15 @@ nav ul li a:hover::after{
 }
 
 #devlopment {
-    background-image: url("IMAGES/Screenshot (170).png");
+    background-image: url("Screenshot (170).png");
     background-size: cover;
 }
 #machineLearning {
-    background-image: url("IMAGES/Screenshot (174).png");
+    background-image: url("Screenshot (174).png");
     background-size: cover;
 }
 #cpp {
-    background-image: url("IMAGES/Screenshot (175).png");
+    background-image: url("Screenshot (175).png");
     background-size: 100% 100%;
 }
 
