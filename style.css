@@ -397,12 +397,10 @@ nav .fas{
     /* #header{
         background-image: url("IMAGES/IMG_20230727_112216540 copy - Copy.JPG");
     } */
-    /* .header-text{
-        margin-top: 90%;
-        font-size: 16px;
-    } */
-    #head1{
-        margin-top: 40px;
+     .header-text{
+        margin-top: 90%;
+    } 
+    #head1{
         font-size: 0.5rem;
     }
 
