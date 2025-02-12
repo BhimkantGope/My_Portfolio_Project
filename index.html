@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a57188b8d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>B.</span>Gope</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <!-- <img src="IMAGES/menu.png"> -->
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-content">
+                <div id="header-text">
+                    <h1 id="head1">Hi, I'<span>m</span> a <br><span>Bhimkant </span>Gope</h1>
+                    <h1><span class="auto-type"></span></h1>
+                    <p id="para1">You can reach out to me if you need any help in making a <br> website for you or your business.</p>
+                </div>
+                <div id="header-image">
+                    <img src="IMAGES/Screenshot (168).png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES/IMG-20241115-WA0005.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis, esse inventore perspiciatis consequuntur recusandae sunt asperiores possimus doloremque dolor temporibus maxime veritatis, totam eveniet distinctio, quaerat vel officia! Reiciendis! lorem</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development<br>HTML5, CSS3, Javascript, Libraries( Bootstrap, NodeJs)</li>
+                            <li><span>C, DSA With C++</span><br>Data Structure and Algoritham</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship <i>1'AUG - 1'SEP</i></span><br>Machine Learning at CCL( Central Coel Field Ltd.)</li>
+                            <li><span>Internship <i>5'JUN - 5'JULY</i></span><br>Full Stack Web Development Internship at Briztech Infosystem Ranchi<br>HTML5, CSS3, Javascript, PHP, SQL, Libraries( Bootstrap, NodeJs)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2025</span><br> Pursuing Bs.c(Computer Application) at Dr. Shyama Prasad Mukherjee University Ranchi</li>
+                            <li><span>2020 - 2022</span><br> Intermediate from St. Joseph Inter College Konbir Basia Gumla</li>
+                            <li><span>2018 - 2020</span><br> Metric from St. vianny Heigh School Lachragarh Simdega</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------services------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div id="devlopment">
+                    <i class="fa-solid fa-code"></i>
+                    <h2><span class="auto-development"></span></h2>
+                    <p>Web app Development HTML5, CSS3, Javascript, Libraries( Bootstrap, NodeJs)<p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div id="machineLearning">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2><span class="auto-ml-ai"></span></h2>
+                    <p>Using Python( Machine Learning / Artificial Inteligence)<p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div id="cpp">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2><span class="auto-dsa"></span></h2>
+                    <p>C, DSA With C++ ( Data Structure and Algoritham)<p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="IMAGES/Screenshot (166).png">
+                    <div class="layer">
+                        <h3>Amazon clone Website</h3>
+                        <p>The web connects you to the many more products.The web connects you to the many more products.</p>
+                        <a href="http://127.0.0.1:5500/index.HTML"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/Screenshot (165).png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>This game connects you to childhood memories. This game connects you to childhood memories.</p>
+                        <a href="file:///C:/Users/BHIMKANTGOPE/Desktop/Tic-tac-toe-project/Tic_Tac_Toe_Project/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/Screenshot (164).png">
+                    <div class="layer">
+                        <h3>Rock Paper Scissors</h3>
+                        <p>This game for you strees mind. This game for you strees mind.This game for you strees mind.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------contact me----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> bhimkantgope8@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 8603992705</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="IMAGES/image1.jpg" alt="image file" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Bhimkant Gope. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
