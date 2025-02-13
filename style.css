@@ -36,7 +36,7 @@ body{
     cursor: pointer;
 }
 #sidemenu {
-    margin-left: 50px;
+    margin-left: 300px;
 }
 .logo span{
     color: #ff004f;
@@ -392,6 +392,7 @@ form .btn2{
 /* -----------------------css for small screens---------------------- */
 nav .fas{
     display: none;
+    margin-right: -50px;
 }
 @media only screen and (max-width: 600px){
     .header-content{
